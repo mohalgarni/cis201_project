@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    color: #fffff;
+}
+body{
+    background-color: #11f11;
+}
+.countdown{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 50%;
+}
+.box{
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+    font-size: 24px;
+}
+.box:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(255,255,255,0.12);
+    height: 100%;
+    width: 50%;
+    left: 0;
+	font-size: 24px;
+}
+
+span.text{
+    font-size: 1.2em;
+    background-color: #2887e3;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0;
+    font-weight: 400;
+}
+
+ 
+
+
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #0d3141;
+ font-size: 15px;
+ line-height: 1.5;
+ padding: 0;
+ margin: 0;
+}
+ 
+ 
+
+
+
+.title{
+ font-size: 20px;
+ text-align: left;
+ font-family: sans-serif;
+ font-weight: normal;
+ line-height: 0.5;
+ letter-spacing: 0.5px;
+ word-spacing: 2.7px;
+ color: #1073d0;
+}
+ 
+ .h1{
+ font-size: 30px;
+ text-align: center;
+ font-family: sans-serif;
+ font-weight: normal;
+ line-height: 0.5;
+ letter-spacing: 0.5px;
+ word-spacing: 2.7px;
+ color: #ffffff;
+}
+
+ .h2{
+ font-size: 30px;
+ text-align: left;
+ font-family: sans-serif;
+ font-weight: bold;
+ line-height: 0.5;
+ letter-spacing: 0.5px;
+ word-spacing: 2.7px;
+ color: #ffffff;
+ text-decoration: underline;
+}
+
+ .b1{
+ font-size: 16px;
+ text-align: left;
+ font-family: sans-serif;
+ font-weight: normal;
+  
+  
+ word-spacing: 2.7px;
+ color: #ffffff;
+}
+
+.link{
+ font-size: 30px;
+ text-align: left;
+ font-family: sans-serif;
+ font-weight: normal;
+ line-height: 0.5;
+ letter-spacing: 0.5px;
+ word-spacing: 2.7px;
+ color: #017f8d;
+}
+.table 
+{
+	border-color: #f21a05;
+	 color: #ffffff;
+	
+	
+}
+
+.button1 {
+  background-color: #017f8d;  
+  border: 2;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: 1;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+
+
+
+
+ 
